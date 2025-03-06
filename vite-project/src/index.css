@@ -1,0 +1,23 @@
+@import "tailwindcss";
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar-btn.active {
+    background-color: #e0e0e0;
+    font-weight: bold;
+  }
+  
